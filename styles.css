@@ -11,7 +11,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-image: url(./assets/images/clouded-bg.jpg);
+    background-image:url(./assets/images/clouded-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -71,9 +71,9 @@ body {
     height: 100vh;
     display:flex;
     justify-content: center;
+    background-image: url(./assets/images/clouded-bg.jpg);
     align-items: center;
     text-align: center;
-    background-image:url(./assets/images/clouded-bg.jpg);
     background-size: cover;
     background-position: 80%;
     background-position: center;
