@@ -16,7 +16,6 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 999;
-    width: 100vw;
     
 }
 
@@ -28,8 +27,11 @@ header h1 a {
     display: flex;
     align-items: flex-end;
     margin-left: 30px;
-    
-}
+    animation-name: jm;
+    animation-duration: 6s;
+
+    }
+
 
 header a {
     text-decoration: none;
@@ -68,7 +70,6 @@ body {
 }
 
 .hero {
-    width: 100vw;
     height: 100vh;
     display:flex;
     justify-content: center;
@@ -120,7 +121,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100vw;
     padding-bottom: 20px;
 }
 
@@ -140,6 +140,15 @@ body {
     border:0px solid black;
 }
 
+.about-me-content  {
+    max-width: 800px;
+}
+
+.about-me p {
+    text-align: center;
+    line-height: 1.8;
+}
+
 .about-me .about-btn {
     display: block;
     width: 200px;
@@ -157,28 +166,71 @@ body {
 /*my work begin*/
 .my-work {
     background-color: rgb(31, 29, 29);
+    background-image: url(./assets/images/clouded-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     
 }
 
+.my-work h1 {
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 60px;
+}
+
 .cards {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row ;
+    
+
 }
 
 
 .cards img {
     width: 100%;
+    filter: grayscale(100%);
+}
+
+.cards img:hover {
+    filter: grayscale(0%);
+    transition-duration: 2s;
 }
 
 .card {
-    flex:;
     width: 25%;
     background-color: blanchedalmond;
-    margin: 20px;
-    
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.card:first-child {
+    flex: 1 1 400px;
+    width: 50%;
+}
+
+.card:not(:first-child) {
+    flex: 1 1 300px;
+    max-width: 60%;
     
 }
+
+
+
+  @keyframes jm {
+    from {color: rgb(24, 23, 23);}
+    to {color: rgb(255, 255, 255);
+    }
