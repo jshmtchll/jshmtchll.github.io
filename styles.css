@@ -292,7 +292,26 @@ body {
 }
 
 
-  @keyframes jm {
-    from {color: rgb(24, 23, 23);}
-    to {color: rgb(255, 255, 255);
-    }
+@keyframes jm {
+from {color: rgb(24, 23, 23);}
+to {color: rgb(255, 255, 255);
+ }}
+
+
+
+@media screen and (max-width: 980px) {
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+
+@media screen and (max-width: 575px) {
+
+    
+}
