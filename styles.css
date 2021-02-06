@@ -147,6 +147,7 @@ body {
 .about-me p {
     text-align: center;
     line-height: 1.8;
+    font-weight: 500;
 }
 
 .about-me .about-btn {
@@ -171,6 +172,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
+    padding-bottom: 70px;
     
 }
 
@@ -228,6 +230,66 @@ body {
     
 }
 
+/*contact section begin*/
+
+.contact h5 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.email {
+    text-align: center;
+    width: 50%;
+}
+
+.email h5 {
+    margin: 0;
+}
+
+.email img {
+    height: 64px;
+    width: 64px;
+}
+
+.email a {
+    text-decoration: none;
+    color: black;
+}
+
+.phone h5 {
+    margin: 0;
+}
+
+.phone {
+    text-align: center;
+    width: 50%;
+}
+
+.phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.phone-email {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons img {
+    height: 64px;
+    width: 64px;
+}
 
 
   @keyframes jm {
