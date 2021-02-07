@@ -6,7 +6,7 @@
 
 /*header begin*/
 header {
-    padding-left: 20px;
+    padding-left: ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,8 +36,6 @@ header h1 a {
 header a {
     text-decoration: none;
     color: white;
-    
-    
 }
 
 /*navigation begin*/
@@ -61,6 +59,10 @@ header nav li a {
     font-size: 30px;
     font-weight: lighter;
 }
+
+header nav li a:hover {
+    text-decoration: underline;
+  }
 
 /*hero begin*/
 
@@ -107,6 +109,11 @@ body {
     font-weight: bold;
 }
 
+.hero-btn:hover {
+    background-color: white;
+    color: black;
+}
+
 .hero-inside img {
     height: 50px;
     margin-top: 20px;
@@ -150,7 +157,7 @@ body {
     font-weight: 500;
 }
 
-.about-me .about-btn {
+.about-btn {
     display: block;
     width: 200px;
     border: 3px solid rgb(0, 0, 0);
@@ -162,6 +169,11 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+}
+
+.about-btn:hover {
+    background-color: black;
+    color: white;
 }
 
 /*my work begin*/
@@ -335,7 +347,7 @@ header nav li a {
 @media screen and (max-width: 575px) {
     
     header {
-        padding-left: 20px;
+        padding-left: ;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
