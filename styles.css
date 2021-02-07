@@ -307,14 +307,103 @@ to {color: rgb(255, 255, 255);
 
 @media screen and (max-width: 768px) {
 
+/*navigation begin*/
+
+header nav {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav li a {
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: lighter;
+}
 
 }
 
 
 @media screen and (max-width: 575px) {
+    
+    header {
+        padding-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-image:url(./assets/images/clouded-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-position: 80%;
+        z-index: 999;
+        
+    }
+    
+    header h1 a {
+        font-family: '3dumbregular';
+        text-decoration: none;
+        font-size: 85px;
+        margin: 0;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 30px;
+        animation-name: jm;
+        animation-duration: 6s;
+    
+        }
+    
+    
+    header a {
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    
+    /*navigation begin*/
+    
+    header nav {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        flex-direction: column;
+    }
+    
     header nav li a {
-        padding: 10px 20px;
-        font-size: 15px;
+        padding: 10px 30px;
+        font-size: 30px;
         font-weight: lighter;
+    }
+
+    /*about section*/
+
+    .about-me img {
+        border-radius: 50%;
+        width: 80%;
+        height: auto;
+        border:0px solid black;
+    }
+
+    .about-me p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 }
