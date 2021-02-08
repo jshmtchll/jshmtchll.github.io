@@ -350,7 +350,7 @@ header nav li a {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-image:url(./assets/images/clouded-bg.jpg);
+        background-image:url(../images/clouded-bg.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
