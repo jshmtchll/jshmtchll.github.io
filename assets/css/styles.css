@@ -218,7 +218,7 @@ body {
 }
 
 .card {
-    width: 25%;
+    width: 100%;
     background-color: blanchedalmond;
     margin: 10px;
     display: inline-block;
@@ -237,6 +237,11 @@ body {
     flex: 1 1 300px;
     max-width: 60%;
     
+}
+
+.cardgit {
+    width: 50px !important;
+    height: 50px;
 }
 
 /*contact section begin*/
