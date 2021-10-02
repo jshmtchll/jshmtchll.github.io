@@ -244,6 +244,11 @@ body {
     height: 35px;
 }
 
+.description {
+    font-size: 13px;
+    font-weight: bold;
+}
+
 /*contact section begin*/
 
 .contact h5 {
